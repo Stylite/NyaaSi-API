@@ -13,7 +13,7 @@ resolvers += "jitpack" at "https://jitpack.io"
 val httpClientVersion = "4.5.5"
 val jsoupVersion = "1.11.2"
 
-LibraryDependencies += "com.github.kaysubs" % "kaysub-commons" % "e32027a9b6"
+libraryDependencies += "com.github.kaysubs" % "kaysub-commons" % "e32027a9b6"
 libraryDependencies += "org.apache.httpcomponents" % "httpclient" % httpClientVersion
 libraryDependencies += "org.apache.httpcomponents" % "httpmime" % httpClientVersion
 libraryDependencies += "org.jsoup" % "jsoup" % jsoupVersion
